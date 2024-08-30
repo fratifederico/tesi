@@ -20,9 +20,9 @@ import baselines.costa as costa
 parser = argparse.ArgumentParser()
 parser.add_argument('--cuda', action='store_true', default=False, help='Enables cuda')
 #parser.add_argument('--dataroot', default='/home/andchri/Feature-Generation-datasets', help='Path to datasets folder')
-parser.add_argument('--dataroot', default='./Data', help='Path to datasets folder')
+parser.add_argument('--dataroot', default='../../Data', help='Path to datasets folder')
 #parser.add_argument('--rootpath', default='/home/andchri/APZSL-pub', help='Path for saving model checkpoints and results')
-parser.add_argument('--rootpath', default='./APZSL-pub', help='Path for saving model checkpoints and results')
+parser.add_argument('--rootpath', default='../../APZSL-pub', help='Path for saving model checkpoints and results')
 parser.add_argument('--numSeeds', type=int, default=1, help='Number of (randomly selected) seeds to experiment on')
 parser.add_argument('--manualSeed', nargs='+', type=int, default=None, help='Specify manual seed(s)')
 
